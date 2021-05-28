@@ -1,6 +1,9 @@
-The files above are part of the final project in data security caurse in SCE college.
+#Data security final project
+The files above are part of the final project
+in data security caurse in SCE college.
 
-Project creators:
+
+##Project creators:
 
 -Karin Papismadov (karinpapismadov)
 -Roy putterman (roypu1998)
@@ -8,12 +11,14 @@ Project creators:
 -Yael Amsalem (yaelamsalem)
 
 
-Preliminary software requirements:
+
+##Preliminary software requirements:
 
 -python running environment.
 
 
-Running instructions:
+
+##Running instructions:
 
 In order to run the project download the project to your device and open it in your 
 python running environment of your choice and install the packages imported in the project if needed.
