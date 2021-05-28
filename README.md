@@ -6,8 +6,11 @@ in data security caurse in SCE college.
 ## Project creators:
 
 -Karin Papismadov (karinpapismadov)
+
 -Roy putterman (roypu1998)
+
 -Erelle Boubli (erelle)
+
 -Yael Amsalem (yaelamsalem)
 
 
