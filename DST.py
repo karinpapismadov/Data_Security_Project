@@ -1,10 +1,13 @@
 import math
+from PIL import Image as im
+
 import cv2
+import numpy
 import numpy as np
 import matplotlib.pyplot as plt
 
 print("DST: ")
-img = cv2.imread('strawberries.png', 0)
+img = cv2.imread('strawberries.jpeg', 0)
 img1 = img.astype('float')
 
 C_temp = np.zeros(img.shape)
@@ -36,21 +39,5 @@ def PSNR(original, compressed):
 
 print("PSNR value of DST method: ",PSNR(img1, img_recor))
 
-
-plt.subplot(131)
-plt.imshow(img1, 'gray')
-plt.title('original image')
-plt.xticks([]), plt.yticks([])
-
-plt.subplot(132)
-plt.imshow(dst1)
-plt.title('DST')
-plt.xticks([]), plt.yticks([])
-
-plt.subplot(133)
-plt.imshow(img_recor, 'gray')
-plt.title('IDST')
-plt.xticks([]), plt.yticks([])
-
-plt.show()
-
+plt.imshow(img_recor, 'gray',aspect='auto')
+plt.savefig("dst.jpeg", dpi=300, bbox_inches='tight')
